@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const body = document.body;
 
     const sectionBackgrounds = [
-        'url("../img/Grass1.jpg")',
-        'url("../img/Snow1.jpg")',
-        'url("../img/Mower1.jpg")',
-        'url("../img/Mower2.jpg")'
+        'url("/Final-Project/img/Grass1.jpg")',
+        'url("/Final-Project/img/Snow1.jpg")',
+        'url("/Final-Project/img/Mower1.jpg")',
+        'url("/Final-Project/img/Mower2.jpg")'
     ];
 
     const SCROLL_INTERVAL = 1000; // Change every 1000 pixels of scroll
