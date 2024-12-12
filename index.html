@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clippers</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/background.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Clippers</h1>
+        <p>Your one-stop solution for pristine lawns and snow-free driveways!</p>
+        <button>Get a Free Quote</button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#promotions">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="#">Other Services</a>
+                <ul>
+                    <li><a href="#" target="_blank">Driveway Cleaning</a></li>
+                    <li><a href="#" target="_blank">Window Washing</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section style="height: 600px;"></section>
+        <!-- Services Section -->
+        <section id="services" style="padding: 20px; text-align: center; background-color: #9dffa1;">
+            <h2>Our Services</h2>
+            <p>We provide top-notch lawn care and reliable snow removal services to keep your property looking its best year-round.</p>
+            <div style="display: flex; justify-content: space-around;">
+                <div style="flex: 1; margin: 10px;">
+                    <img src="img/lawn.jpg" alt="Lawn Mowing" style="width: 75%;">
+                    <h3>Lawn Mowing</h3>
+                    <p>Expert lawn mowing for a pristine and healthy lawn.</p>
+                </div>
+                <div style="flex: 1; margin: 10px;">
+                    <img src="img/snow.jpg" alt="Snow Removal" style="width: 75%;">
+                    <h3>Snow Removal</h3>
+                    <p>Quick and efficient snow clearing services for your safety.</p>
+                </div>
+            </div>
+        </section>
+        <section style="height: 600px;"></section>
+        <!-- Promotions Section -->
+        <section id="promotions" style="background: #9dffa1; padding: 20px; text-align: center;">
+            <h2>Special Promotions</h2>
+            <p>Take advantage of our summer discounts for lawn care and seasonal packages for snow removal.</br></br></br></p>
+            <p style="background: #fff82c; border-radius: 5px; padding: 10px;"><strong>Summer Offer:</strong> 20% off on all lawn care services!</p>
+        </section>
+        <!-- Pricing Section -->
+        <section id="pricing" style="padding: 20px; text-align: center; background: #9dffa1;">
+            <h2>Pricing</h2>
+            <p>Transparent and competitive pricing for all our services.</p>
+            <table style="margin: 0 auto; border-collapse: collapse; width: 80%;">
+                <tr style="background: #4CAF50; color: white;">
+                    <th>Service</th>
+                    <th>Small Yard</th>
+                    <th>Medium Yard</th>
+                    <th>Large Yard</th>
+                </tr>
+                <tr>
+                    <td>Lawn Mowing</td>
+                    <td>$30</td>
+                    <td>$50</td>
+                    <td>$70</td>
+                </tr>
+                <tr>
+                    <td>Snow Removal</td>
+                    <td>$40</td>
+                    <td>$60</td>
+                    <td>$90</td>
+                </tr>
+            </table>
+        </section>
+        <section style="height: 600px;"></section>
+        <!-- Testimonials Section -->
+        <section id="testimonials" style="background: #f9f9f9; padding: 20px; text-align: center;">
+            <h2>What Our Customers Say</h2>
+            <blockquote>
+                "Lawn & Snow Service transformed my lawn into a lush, green paradise! Highly recommend their services." - John P.
+            </blockquote>
+            <blockquote>
+                "Fast and reliable snow removal! They made my driveway safe during the harshest storms." - Jessi B.
+            </blockquote>
+            <blockquote>
+                "Great prices, excellent service, and very professional team. I’m a loyal customer!" - Zach L.
+            </blockquote>
+        </section>
+        <section style="height: 600px;"></section>
+        <!-- Contact Section -->
+        <section id="contact" style="padding: 20px; text-align: center;">
+            <div style="background: #9dffa1; border-radius: 5px; padding: 20px; width: 300px; max-width: 100%; margin: auto;">
+                <h2>Contact Us</h2>
+                <p>123 Greenway Drive, Snowville, CA</p>
+                <p>Email: info@clippers.com | Phone: (555) 555-5555</p>
+            </div>
+            <section style="height: 20px;"></section>        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+            <form id="quote-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" maxlength="3" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="landSize">Land Size (sq ft):</label>
+                <input type="number" id="landSize" name="landSize" required><br>
+                <button type="submit">Get Quote</button>
+            </form>
+        </section>
+    </main>
+
+    <footer style="background: #333; color: white; padding: 10px; text-align: center;">
+        <p>© 2024 Clippers | Designed by A.H</p>
+        <div>
+            <a href="#" style="color: white; margin: 0 5px;">Facebook</a> |
+            <a href="#" style="color: white; margin: 0 5px;">Twitter</a> |
+            <a href="#" style="color: white; margin: 0 5px;">Instagram</a>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
